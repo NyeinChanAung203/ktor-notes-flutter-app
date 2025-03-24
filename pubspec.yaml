@@ -51,7 +51,7 @@ dependencies:
   go_router: ^14.6.1
 
   # For Model
-  freezed_annotation: ^2.4.4
+  freezed_annotation: ^3.0.0
   json_annotation: ^4.9.0
   
   # For System
@@ -82,7 +82,7 @@ dev_dependencies:
   mocktail: ^1.0.4
 
   # For model
-  freezed: ^2.5.7
+  freezed: ^3.0.3
   json_serializable: ^6.9.0
 
   # For state management

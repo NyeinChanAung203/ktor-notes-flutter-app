@@ -16,8 +16,6 @@ class SignInViewmodel extends _$SignInViewmodel {
   Future<void> signIn({
     required String email,
     required String password,
-    // required void Function(String message) onError,
-    // required void Function(Token token) onSuccess,
   }) async {
     state = SignInUIState.loading();
     final data = await AsyncValue.guard(
